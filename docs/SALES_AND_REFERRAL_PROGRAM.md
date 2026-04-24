@@ -24,7 +24,7 @@ A payout happens only when:
 ## What Does Not Qualify
 No payout for:
 - unpaid leads
-n- duplicate referrals
+- duplicate referrals
 - cancellations
 - verbal interest only
 - businesses already in pipeline
