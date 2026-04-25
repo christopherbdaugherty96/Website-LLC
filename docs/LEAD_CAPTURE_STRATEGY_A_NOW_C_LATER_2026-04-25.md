@@ -40,7 +40,7 @@ Keep the form structure stable so future migration is easy:
 Move beyond Formspree when one or more of these become true:
 - regular lead volume
 - need for CRM pipeline
-n- automated follow-up needed
+- automated follow-up needed
 - booking calendar integration needed
 - analytics attribution needed
 - multi-user sales workflow needed
