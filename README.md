@@ -16,7 +16,7 @@ Auralis Digital builds clean, practical, mobile-ready websites for local busines
 - Premium / Custom — quote based
 
 ## Current Website State
-The homepage currently includes founder trust positioning, founder photo, pricing, services, examples, FAQ, Michigan service areas, lead intake form, accessibility improvements, and local SEO basics.
+The homepage currently includes founder trust positioning, founder photo, pricing, services, examples, FAQ, Michigan service areas, lead intake form, accessibility improvements, local SEO basics, and a branded social preview asset.
 
 Full checkpoint: `docs/CURRENT_STATE_CHECKPOINT_2026-04-25.md`
 
@@ -30,7 +30,7 @@ Recommended upgrades:
 
 ## Near-Term Priorities
 1. Add a real backend form provider.
-2. Add PNG social preview image for better sharing.
+2. Add a PNG social preview later if platform preview compatibility requires it. Current social preview asset: `assets/social-preview.svg`.
 3. Add real testimonials after client permission is available.
 4. Add local SEO landing pages for Belleville, Ypsilanti, Ann Arbor, and Detroit Metro.
 5. Add analytics.
