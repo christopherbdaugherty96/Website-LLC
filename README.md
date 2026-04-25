@@ -4,7 +4,6 @@ Professional websites for Michigan local businesses built to earn trust, clarify
 
 ## Live Website
 Primary domain: https://www.auralisdigital.net/
-
 GitHub Pages fallback: https://christopherbdaugherty96.github.io/Auralis-Digital/
 
 ## What Auralis Digital Does
@@ -17,12 +16,14 @@ Auralis Digital builds clean, practical, mobile-ready websites for local busines
 - Premium / Custom — quote based
 
 ## Current Website State
-The homepage currently includes founder trust positioning, pricing, services, examples, FAQ, Michigan service areas, lead intake form, accessibility improvements, and local SEO basics.
+The homepage currently includes founder trust positioning, founder photo, pricing, services, examples, FAQ, Michigan service areas, lead intake form, accessibility improvements, and local SEO basics.
+
+Full checkpoint: `docs/CURRENT_STATE_CHECKPOINT_2026-04-25.md`
 
 ## Important Current Gap
 The contact form currently opens a prepared email. It is useful, but it is not yet a true backend lead form.
 
-Recommended next upgrade:
+Recommended upgrades:
 - Formspree, Netlify Forms, Basin, Google Forms, or a custom backend endpoint
 - automatic email notification
 - optional lead spreadsheet or CRM tracking
@@ -34,6 +35,10 @@ Recommended next upgrade:
 4. Add local SEO landing pages for Belleville, Ypsilanti, Ann Arbor, and Detroit Metro.
 5. Add analytics.
 6. Add booking calendar when consultation flow is ready.
+7. Move founder photo to a clean `/assets/` path.
+
+## Regression Safety Note
+`index.html` is a full homepage file. Any API overwrite must use the complete file contents, not a placeholder page.
 
 ## Contact
 Auralis Digital  
