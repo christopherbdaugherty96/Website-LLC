@@ -6,6 +6,16 @@ Date: 2026-04-26
 
 This document records the intended change for the Auralis Digital homepage demo section so future review passes, Codex sessions, or local edits do not miss the requested direction.
 
+It exists to keep repo truth clear until the homepage file is patched directly.
+
+---
+
+## Priority
+
+**Immediate UX priority:** high.
+
+This homepage cleanup should be treated as a higher short-term priority than the future hero realism upgrade because it improves clarity on the main landing page right now with a smaller, lower-risk change.
+
 ---
 
 ## User Request
@@ -22,6 +32,19 @@ The requested behavior is:
   - Lawn Care Website Example
 - Leave the full demo category page intact.
 - Keep one clear homepage card/link that sends visitors to the full demo library.
+
+---
+
+## Conversion Reason
+
+The business reason for this change:
+
+- less visual clutter;
+- fewer competing clicks;
+- clearer user path;
+- stronger call-to-action funnel;
+- homepage feels more premium and intentional;
+- visitors can browse all categories in one place instead of choosing between duplicate homepage cards.
 
 ---
 
@@ -79,6 +102,17 @@ When applying this change:
 The GitHub connector used in the ChatGPT session was truncating `index.html`, so the homepage could not be safely patched directly from that session.
 
 Because of that, this document exists as a source of truth for a local editor or Codex to complete the change safely.
+
+---
+
+## Cross-Reference Truth
+
+See also:
+
+- `docs/ASSET_MANIFEST.md` for asset status.
+- `docs/HOMEPAGE_VISUAL_INTEGRATION_PATCH.md` for the larger image-card homepage patch path.
+
+If this simplified gateway approach is chosen, homepage thumbnails may no longer be necessary in the Example Work section.
 
 ---
 
