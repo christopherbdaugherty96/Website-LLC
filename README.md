@@ -9,36 +9,45 @@ GitHub Pages fallback: https://christopherbdaugherty96.github.io/Auralis-Digital
 ## What Auralis Digital Does
 Auralis Digital builds clean, practical, mobile-ready websites for local businesses that need a stronger online presence.
 
+Current focus:
+- Website Refreshs
+- Starter websites
+- Growth websites
+- Local business positioning
+- Conversion-focused design
+- Future Nova-powered business tools
+
 ## Starting Pricing
 - Website Refresh — $250
 - Basic Website — $500+
 - Standard Website — $1,000+
 - Premium / Custom — quote based
 
-## Current Website State
-The homepage currently includes founder trust positioning, founder photo, pricing, services, examples, FAQ, Michigan service areas, lead intake form, accessibility improvements, local SEO basics, and a branded social preview asset.
+## 3-Pass Upgrade Completed (2026-04-25)
+- Stronger messaging and positioning
+- Improved conversion flow and CTA coverage
+- Added future-ready Nova services section
+- Refined trust language
+- Updated documentation
 
-Full checkpoint: `docs/CURRENT_STATE_CHECKPOINT_2026-04-25.md`
+See: `docs/WEBSITE_RECOMMENDATIONS_AND_3_PASS_COMPLETION_2026-04-25.md`
 
-## Important Current Gap
-The contact form currently opens a prepared email. It is useful, but it is not yet a true backend lead form.
+## Current Biggest Gap
+The contact form currently opens a prepared email. It works as a starter flow, but a true backend form is the next priority.
 
-Recommended upgrades:
-- Formspree, Netlify Forms, Basin, Google Forms, or a custom backend endpoint
-- automatic email notification
-- optional lead spreadsheet or CRM tracking
+Recommended options:
+- Formspree
+- Netlify Forms
+- Basin
+- Google Forms
+- Custom backend endpoint
 
-## Near-Term Priorities
-1. Add a real backend form provider.
-2. Add a PNG social preview later if platform preview compatibility requires it. Current social preview asset: `assets/social-preview.svg`.
-3. Add real testimonials after client permission is available.
-4. Add local SEO landing pages for Belleville, Ypsilanti, Ann Arbor, and Detroit Metro.
-5. Add analytics.
-6. Add booking calendar when consultation flow is ready.
-7. Move founder photo to a clean `/assets/` path.
-
-## Regression Safety Note
-`index.html` is a full homepage file. Any API overwrite must use the complete file contents, not a placeholder page.
+## Next Recommended Steps
+1. Add real form backend.
+2. Add Search Console.
+3. Add real testimonials.
+4. Add Google Business Profile.
+5. Add dedicated Nova services page when offer is ready.
 
 ## Contact
 Auralis Digital  
