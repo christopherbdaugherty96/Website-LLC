@@ -70,9 +70,11 @@ Use these when prospecting, following up, handling objections, pricing, closing 
 - `OBJECTION_HANDLING.md`
 - `RESPONSE_SCRIPTS_WHEN_LEADS_REPLY_2026-04-24.md`
 - `OUTREACH_SCRIPTS.md`
+- `OUTREACH_PACKET.md`
+- `CLIENT_INTAKE_QUESTIONNAIRE.md`
+- `QUICK_ESTIMATE_GUIDE.md`
 - `PROPOSAL_TEMPLATE.md`
 - `CLIENT_ONBOARDING.md`
-- `OUTREACH_PACKET.md`
 - `FIRST_CLIENT_DELIVERY_CHECKLIST.md`
 
 ---
@@ -129,9 +131,10 @@ These remain approved references and reasoning history.
 4. Use `docs/PUBLIC_LAUNCH_CHECKLIST.md` before outreach
 5. Use conversion docs when improving the website
 6. Use sales docs when prospecting and closing
-7. Use delivery checklist when first client says yes
-8. Use proof docs after successful delivery
-9. Update roadmap when priorities truly change
+7. Use intake and estimate guides before quoting
+8. Use delivery checklist when first client says yes
+9. Use proof docs after successful delivery
+10. Update roadmap when priorities truly change
 
 ---
 
