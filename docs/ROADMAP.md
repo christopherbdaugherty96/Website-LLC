@@ -38,14 +38,15 @@ Current strengths:
 - Public launch checklist exists
 - Formspree and analytics setup guides exist
 - Outreach packet exists
+- Confirmed public brand drift pages reviewed so far have been corrected
+- First-pass placeholder searches found no obvious placeholder terms
 
 Current gaps:
 
 - Contact form is still mailto-based until Formspree or another backend is installed
 - No analytics/Search Console confirmation yet
 - No real testimonials or case studies yet
-- Some legacy branding references may remain in older docs/pages
-- Some demo pages may still need placeholder cleanup before outreach
+- Full manual review of every demo page is still recommended before sending demos to prospects
 
 ## Status Tracker
 
@@ -56,11 +57,12 @@ Current gaps:
 | Public launch checklist | Complete | Use before outreach | `docs/PUBLIC_LAUNCH_CHECKLIST.md` |
 | Founder page brand cleanup | Complete | Recheck after site changes | `about-christopher.html` aligned to Auralis |
 | Website services page cleanup | Complete | Recheck after site changes | `website-llc.html` aligned to Auralis |
+| Public brand drift search | First pass complete | Continue manual review as pages change | Searches for old brand terms returned no hits |
+| Placeholder search | First pass complete | Manually review demos before outreach | Obvious placeholder terms returned no hits |
 | Lead capture backend | Not Started | Create Formspree form and add endpoint | Requires account-side action |
 | Formspree setup doc | Complete | Use when endpoint is ready | `docs/FORMSPREE_SETUP.md` |
 | Analytics/Search Console | Not Started | Create GA4/Search Console and add tags | Requires account-side action |
 | Analytics setup doc | Complete | Use during setup | `docs/ANALYTICS_SETUP.md` |
-| Demo placeholder sweep | In Progress | Review demos before outreach | Do not send unreviewed demo pages |
 | Outreach packet | Complete | Start using for prospect messages | `docs/OUTREACH_PACKET.md` |
 | First real outreach | Not Started | Contact qualified prospects | Use lead tracker and outreach packet |
 | First paid client | Not Started | Follow up and send proposal when qualified | Use proposal/onboarding docs |
@@ -95,7 +97,7 @@ Tasks:
 - [ ] Add Google Analytics 4
 - [ ] Add Google Search Console
 - [x] Remove visible legacy Y.O.U. branding from confirmed public-facing pages reviewed so far
-- [ ] Clean placeholder content from any demo before sending it to prospects
+- [x] Run first-pass placeholder search before outreach
 - [x] Confirm documented contact email and phone are consistent in updated public pages
 - [ ] Keep the full homepage intact when editing `index.html`
 - [x] Use the regression checklist after website changes
@@ -208,11 +210,10 @@ Do not build advanced automation before there are real clients and real workflow
 
 1. Install real form backend.
 2. Add analytics and Search Console.
-3. Continue public brand/contact drift checks.
-4. Clean demo placeholders before outreach.
-5. Contact real prospects.
-6. Close first small paid project.
-7. Turn that work into proof.
+3. Manually review any demo before sending it to a specific prospect.
+4. Contact real prospects.
+5. Close first small paid project.
+6. Turn that work into proof.
 
 ## What Not To Do Right Now
 
