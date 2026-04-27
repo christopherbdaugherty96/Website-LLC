@@ -26,7 +26,7 @@ Replace the current mailto inquiry flow with a real submission form without buil
 ## Recommended Fields
 
 - Name
-n- Business Name
+- Business Name
 - Email
 - Phone
 - Website URL (optional)
