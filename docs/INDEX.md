@@ -35,17 +35,26 @@ Current confirmed website state, known gaps, asset notes, and safe next steps.
 ## 5. `docs/REGRESSION_CHECKLIST_2026-04-25.md`
 Use after every website change to ensure nothing important broke.
 
+## 6. `docs/PUBLIC_LAUNCH_CHECKLIST.md`
+Use before sending prospects to the website. Covers brand, contact, demos, technical checks, measurement, and sales readiness.
+
 ---
 
 # Website Conversion / Lead Capture Docs
 
-## 6. `docs/NEXT_STEPS_EXECUTION_PLAN_2026-04-26.md`
+## 7. `docs/NEXT_STEPS_EXECUTION_PLAN_2026-04-26.md`
 Execution dashboard focused on lead generation, trust cleanup, and first-client progress.
 
-## 7. `docs/LEAD_CAPTURE_STRATEGY_A_NOW_C_LATER_2026-04-25.md`
+## 8. `docs/LEAD_CAPTURE_STRATEGY_A_NOW_C_LATER_2026-04-25.md`
 Phased decision: Formspree now, custom backend later.
 
-## 8. `docs/WEBSITE_RECOMMENDATIONS_AND_3_PASS_COMPLETION_2026-04-25.md`
+## 9. `docs/FORMSPREE_SETUP.md`
+Step-by-step guide for replacing the mailto flow with a real Formspree-backed inquiry form.
+
+## 10. `docs/ANALYTICS_SETUP.md`
+Setup guide for GA4 and Google Search Console.
+
+## 11. `docs/WEBSITE_RECOMMENDATIONS_AND_3_PASS_COMPLETION_2026-04-25.md`
 Completed messaging/conversion improvement pass.
 
 ---
@@ -63,6 +72,7 @@ Use these when prospecting, following up, handling objections, pricing, and clos
 - `OUTREACH_SCRIPTS.md`
 - `PROPOSAL_TEMPLATE.md`
 - `CLIENT_ONBOARDING.md`
+- `OUTREACH_PACKET.md`
 
 ---
 
@@ -106,10 +116,11 @@ These remain approved references and reasoning history.
 1. Read `docs/ROADMAP.md`
 2. Review `docs/CURRENT_STATE_CHECKPOINT_2026-04-25.md`
 3. Use `docs/REGRESSION_CHECKLIST_2026-04-25.md` before/after website edits
-4. Use conversion docs when improving the website
-5. Use sales docs when prospecting
-6. Use proposal/onboarding docs when a lead is interested
-7. Update roadmap when priorities truly change
+4. Use `docs/PUBLIC_LAUNCH_CHECKLIST.md` before outreach
+5. Use conversion docs when improving the website
+6. Use sales docs when prospecting
+7. Use proposal/onboarding docs when a lead is interested
+8. Update roadmap when priorities truly change
 
 ---
 
