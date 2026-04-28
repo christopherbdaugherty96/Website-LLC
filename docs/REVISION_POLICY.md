@@ -26,7 +26,7 @@ A revision round means one grouped set of feedback submitted together.
 Examples:
 
 - wording changes
-n- image swaps
+- image swaps
 - color adjustments
 - section reordering
 - CTA wording updates
