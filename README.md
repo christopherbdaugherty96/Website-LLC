@@ -14,35 +14,49 @@ Auralis Digital builds clean, practical, mobile-ready websites for local busines
 Current focus:
 
 - Website refreshes
-- Starter websites
-- Growth websites
+- Basic business websites
+- Standard growth websites
 - Local business positioning
 - Conversion-focused design
 - Lead capture and quote-request flows
+- Monthly website retainer support
 
 ## Starting Pricing
+
+### Website Builds
 
 - Website Refresh — $250
 - Basic Website — $500+
 - Standard Website — $1,000+
 - Premium / Custom — quote based
 
-Pricing is a starting framework. Final scope, timeline, revisions, and add-ons should be confirmed before work begins.
+Pricing is a starting framework. Final scope, timeline, revisions, add-ons, and integrations should be confirmed before work begins.
+
+### Ongoing Support
+
+- Monthly Website Retainer — $250/month
+
+Best for businesses that want their website actively maintained with ongoing updates, support, and light optimization after launch.
+
+## Current Operations Layer
+
+The repo now includes internal business systems for:
+
+- client intake
+- quoting and scope control
+- revision policy
+- hosting and domain handoff
+- website launch checklist
+- contact form planning
+- monthly retainer support
+
+See the `docs/` folder for operating templates and policies.
 
 ## Current Service Direction
 
 Auralis starts with websites first. The next step is stronger lead capture through real forms, cleaner inquiry flows, and better follow-up structure.
 
 Longer term, optional Nova-powered business tools may be explored for lead summaries, draft replies, metrics, and simple workflow support. Those features are not the current core offer and should remain clearly separated until fully ready.
-
-## 3-Pass Upgrade Completed (2026-04-25)
-
-- Stronger messaging and positioning
-- Improved conversion flow and CTA coverage
-- Refined trust language
-- Updated documentation
-
-See: `docs/WEBSITE_RECOMMENDATIONS_AND_3_PASS_COMPLETION_2026-04-25.md`
 
 ## Current Biggest Gap
 
@@ -59,12 +73,12 @@ Recommended options:
 ## Next Recommended Steps
 
 1. Add real form backend.
-2. Add Search Console.
-3. Add real testimonials.
-4. Add Google Business Profile.
-5. Add dedicated future tools page only when the offer is ready and grounded in working capability.
-6. Add service/package documentation inside `docs/`.
-7. Add lead-capture and client-funnel documentation.
+2. Choose Vercel or Netlify for upgraded deployments.
+3. Deploy and review upgraded site preview before replacing the live site.
+4. Add real testimonials / case studies.
+5. Add Google Business Profile.
+6. Build repeatable client acquisition workflow.
+7. Continue refining service delivery systems inside `docs/`.
 
 ## Contact
 
