@@ -2,7 +2,7 @@
 
 Status: operating workflow / production standard
 
-This document defines the practical website-only workflow for Auralis Digital.
+This document defines the practical website-building workflow for Auralis Digital.
 
 The goal is to lock down website creation first: consistent structure, strong visuals, mobile polish, and repeatable delivery.
 
@@ -42,21 +42,21 @@ Install the tools that support the workflow. Do not try to master everything at 
 
 **GitHub Desktop** — Easy version control and backups.
 
-**Next.js** — Premium custom coded websites.
+**Next.js** — Premium custom-coded websites.
 
 **Tailwind CSS** — Fast styling system for modern sites.
 
 ### Graphics and Assets
 
-**Canva** — Quick graphics, social banners, simple brand assets, presentations.
+**Canva** — Quick graphics, social banners, simple brand assets, and presentations.
 
 **Photopea** — Free browser-based Photoshop alternative.
 
 ### Content and Copy Support
 
-**ChatGPT / AI Assistant** — Copy, ideas, proposals, SEO drafts, refinement.
+**ChatGPT / AI Assistant** — Copy, ideas, proposals, SEO drafts, and refinement.
 
-**Codex** — Code generation, layout implementation, debugging, rapid drafts inside a repo.
+**Codex** — Code generation, layout implementation, debugging, and rapid drafts inside a repo.
 
 Best use case:
 - you provide client info + style direction + assets
@@ -67,7 +67,7 @@ Best use case:
 
 **Google Drive / Dropbox** — Client assets and backups.
 
-**Google Sheets / Notion** — Leads, clients, tasks, workflows.
+**Google Sheets / Notion** — Leads, clients, tasks, and workflows.
 
 **Google Meet / Zoom** — Client calls and reviews.
 
@@ -96,7 +96,7 @@ Use Codex as a production helper, not a replacement for judgment.
 5. Let Codex create the first draft.
 6. Review layout, spacing, mobile, and copy.
 7. Improve visuals manually.
-8. Deliver polished final version.
+8. Deliver the polished final version.
 
 ### Prompt Template
 
@@ -135,9 +135,9 @@ Codex accelerates production. Final quality control remains human.
 
 ---
 
-## Website-Only Focus
+## Website Focus
 
-Ignore broader automation, passive income ideas, and unrelated tools.
+Ignore broader automation, passive-income ideas, and unrelated tools.
 
 The current mission is simple:
 
@@ -178,7 +178,7 @@ Consultants, agencies, luxury services, personal brands, high-ticket offers.
 
 **Template C — Visual / Hospitality**
 
-Restaurants, bars, mobile bartending, salons, event businesses.
+Restaurants, bars, mobile bartending, salons, and event businesses.
 
 Reuse templates and customize them instead of rebuilding everything.
 
