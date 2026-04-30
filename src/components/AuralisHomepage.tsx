@@ -9,6 +9,7 @@ import {
   Hammer,
   Leaf,
   MapPin,
+  Menu,
   MessageSquareText,
   MonitorSmartphone,
   Paintbrush,
@@ -19,6 +20,7 @@ import {
   Store,
   UtensilsCrossed,
   Wine,
+  X,
   Zap,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -370,32 +372,76 @@ function ContactForm() {
   );
 }
 
+const NAV_LINKS = [
+  { label: "Services", href: "#services" },
+  { label: "Work", href: "#work" },
+  { label: "Pricing", href: "#pricing" },
+  { label: "Areas", href: "#areas" },
+  { label: "FAQ", href: "#faq" },
+];
+
 export default function AuralisHomepage() {
   const scrollY = useReducedMotionAwareScroll();
+  const [mobileOpen, setMobileOpen] = useState(false);
+
+  useEffect(() => {
+    if (!mobileOpen) return;
+    const close = () => setMobileOpen(false);
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape") close(); });
+    return () => document.removeEventListener("keydown", close);
+  }, [mobileOpen]);
 
   return (
     <>
       {/* ── Nav ───────────────────────────────────────────── */}
       <header className="sticky top-0 z-50 border-b border-border/50 bg-background/80 backdrop-blur-xl">
         <div className="site-shell flex items-center justify-between py-3">
-          <a href="#top" className="text-lg font-black tracking-tight text-foreground">
+          <a href="#top" className="text-lg font-black tracking-tight text-foreground" onClick={() => setMobileOpen(false)}>
             AURALIS DIGITAL
           </a>
           <nav className="hidden items-center gap-6 md:flex" aria-label="Main navigation">
-            <a href="#services" className="text-sm font-bold text-muted-foreground hover:text-foreground">Services</a>
-            <a href="#work" className="text-sm font-bold text-muted-foreground hover:text-foreground">Work</a>
-            <a href="#pricing" className="text-sm font-bold text-muted-foreground hover:text-foreground">Pricing</a>
-            <a href="#areas" className="text-sm font-bold text-muted-foreground hover:text-foreground">Areas</a>
-            <a href="#faq" className="text-sm font-bold text-muted-foreground hover:text-foreground">FAQ</a>
+            {NAV_LINKS.map((l) => (
+              <a key={l.href} href={l.href} className="text-sm font-bold text-muted-foreground hover:text-foreground">{l.label}</a>
+            ))}
             <Button variant="conversion" size="sm" asChild>
               <a href="#contact">Get Quote</a>
             </Button>
           </nav>
-          {/* Mobile: just CTA */}
-          <Button variant="conversion" size="sm" className="md:hidden" asChild>
-            <a href="#contact">Get Quote</a>
-          </Button>
+          {/* Mobile: hamburger */}
+          <button
+            className="md:hidden rounded-md p-2 text-foreground hover:bg-accent"
+            aria-label={mobileOpen ? "Close menu" : "Open menu"}
+            aria-expanded={mobileOpen}
+            onClick={() => setMobileOpen((o) => !o)}
+          >
+            {mobileOpen ? <X className="size-5" /> : <Menu className="size-5" />}
+          </button>
         </div>
+        {/* Mobile drawer */}
+        {mobileOpen && (
+          <div className="border-t border-border/50 bg-background/95 backdrop-blur-xl md:hidden">
+            <nav className="site-shell flex flex-col gap-1 py-4" aria-label="Mobile navigation">
+              {NAV_LINKS.map((l) => (
+                <a
+                  key={l.href}
+                  href={l.href}
+                  className="rounded-lg px-3 py-3 text-base font-bold text-muted-foreground hover:bg-accent hover:text-foreground"
+                  onClick={() => setMobileOpen(false)}
+                >
+                  {l.label}
+                </a>
+              ))}
+              <div className="mt-2 flex flex-col gap-2">
+                <Button variant="conversion" size="lg" className="w-full" asChild>
+                  <a href="#contact" onClick={() => setMobileOpen(false)}>Get a Free Website Review</a>
+                </Button>
+                <Button variant="conversionOutline" size="lg" className="w-full" asChild>
+                  <a href={PHONE_HREF}>Call {PHONE}</a>
+                </Button>
+              </div>
+            </nav>
+          </div>
+        )}
       </header>
 
       <main id="top" className="auralis-page overflow-hidden">

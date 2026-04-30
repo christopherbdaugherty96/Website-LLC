@@ -25,6 +25,14 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Copy static assets to dist
+        run: |
+          cp -r assets/. dist/assets/
+          cp -f about-christopher.html dist/ 2>/dev/null || true
+          cp -f website-llc.html dist/ 2>/dev/null || true
+          cp -f restaurant-demo.html dist/ 2>/dev/null || true
+          cp -f sitemap.xml dist/ 2>/dev/null || true
+
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
